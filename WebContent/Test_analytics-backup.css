@@ -1,0 +1,100 @@
+@CHARSET "UTF-8";
+
+html {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+ }
+ 
+body {
+	/*padding-left: 11em;*/
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+    /*font-family: Georgia, "Times New Roman", Times, serif */}
+
+h1 {
+	margin: 0px;
+	border: 0px;
+	padding: 10px;
+	padding-bottom: 0;
+	vertical-align: bottom ;
+}
+
+div {
+	margin-top: 0px;
+	border-top: 0px;
+	padding-top: 0px;	
+	margin-bottom: 0px;
+	border-bottom: 0px;
+	padding-bottom: 0px;	
+}
+
+div#bandeauTitre {
+	background-color: #2583d4 ;
+	color: white;
+	text-align: center;
+	 }
+	 
+div#bandeauTitre p {
+	font-size: 1.2em;
+	padding: 10px;
+	margin: 0px;
+}
+
+div#sousLeTitre {
+	background-color: white;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+div#pageContent {
+
+	  padding-left : 12em ;
+
+}
+
+div#testPresentation {
+	border-bottom: thin dotted ;
+}
+
+div#navbar {
+	float: left ;
+	width: 10em ;
+	}
+
+ul {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	list-style-type:none;
+}
+
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  top: 2em;
+  left: 1em;
+  /*width: 9em */ }
+  
+        
+ul.navbar li {
+  background: #e1f1ff;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid;
+  border-color: #2583d4 ;
+  }
+  
+ul.navbar a {
+  text-decoration: none }
+  
+a:link {
+  color: blue }
+a:visited {
+  color: purple }
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted }

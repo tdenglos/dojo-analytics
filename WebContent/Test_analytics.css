@@ -1,0 +1,111 @@
+@CHARSET "UTF-8";
+
+html {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+ }
+ 
+body {
+	/*padding-left: 11em;*/
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+    /*font-family: Georgia, "Times New Roman", Times, serif */}
+
+h1 {
+	margin: 0px;
+	border: 0px;
+	padding: 10px;
+	padding-bottom: 0;
+	padding-top: 2.8em;
+	font-size: 3em;
+}
+
+div {
+	margin-top: 0px;
+	border-top: 0px;
+	padding-top: 0px;	
+	margin-bottom: 0px;
+	border-bottom: 0px;
+	padding-bottom: 0px;	
+}
+
+div#bandeauTitre {
+	background-color: #2583d4 ;
+	background-image: url('assets/dojo.jpg') ;
+	background-repeat: no-repeat ;
+    background-position: center bottom ;
+	color: white;
+	text-align: center;
+	height: 330px;
+	 }
+	 
+div#bandeauTitre p {
+	font-size: 1.6em;
+	padding: 10px;
+	margin: 0px;
+}
+
+div#sousLeTitre {
+	background-color: white;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+div#pageContent {
+
+	  padding-left : 14em ;
+
+}
+
+div#testPresentation {
+	border-bottom: thin dotted ;
+}
+
+div#navbar {
+	float: left ;
+	width: 12em ;
+}
+
+div.g-signin2 {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+ul {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	list-style-type:none;
+}
+
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  top: 2em;
+  left: 1em;
+  /*width: 9em */ }
+  
+        
+ul.navbar li {
+  background: #e9e78f;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid;
+  border-color: #804000 ;
+  }
+  
+ul.navbar a {
+  text-decoration: none }
+  
+a:link {
+  color: blue }
+a:visited {
+  color: purple }
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted }
